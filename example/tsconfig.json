@@ -1,6 +1,6 @@
 {
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "types": ["@nuxt-commerce/algolia"]
+    "types": ["@nuxt-modules/lazy-load"]
   }
 }
