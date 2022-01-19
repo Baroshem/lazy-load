@@ -1,6 +1,6 @@
 import { computed } from 'vue'
-import { LazyLoadOptions, Observer, UseLazyLoad } from '../types'
 import { useNuxtApp, useRuntimeConfig, useState } from '#app'
+import { LazyLoadOptions, Observer, UseLazyLoad } from '../types'
 
 export const useLazyLoad = (): UseLazyLoad => {
   const { $lazyLoad } = useNuxtApp()
