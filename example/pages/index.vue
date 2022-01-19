@@ -13,6 +13,5 @@ onMounted(() => {
   init()
   console.log(observer.value)
 })
-
 </script>
 
