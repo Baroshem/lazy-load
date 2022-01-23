@@ -11,7 +11,7 @@
 > Lazy Loading Images module for [Nuxt 3](https://v3.nuxtjs.org)
 
 - [✨ &nbsp;Release Notes](https://github.com/nuxt-modules/lazy-load/releases)
-- [📖 &nbsp;Read the documentation](https://lazy-load-nc.netlify.app)
+- [📖 &nbsp;Read the documentation](https://lazy-load-nm.netlify.app)
 
 ## Features
 
@@ -21,7 +21,7 @@
 - Handy composable useLazyLoad
 - TypeScript support
 
-[📖 &nbsp;Read the documentation](https://lazy-load-nc.netlify.app)
+[📖 &nbsp;Read the documentation](https://lazy-load-nm.netlify.app)
 
 ## Setup
 
