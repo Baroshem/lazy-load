@@ -10,7 +10,7 @@ export const useLazyLoad = (): UseLazyLoad => {
   const observer = useState<Observer>('lazy-load-observer', () => null as any)
 
   const init = (): Observer => {
-    const lazyLoadObserver = $lazyLoad(`.${selector || 'lazy'}`, options)
+    const lazyLoadObserver = $lazyLoad(`.${selector}`, options)
     lazyLoadObserver.observe()
 
     observer.value = lazyLoadObserver

@@ -1,12 +1,21 @@
 import defu from 'defu'
-import { resolve } from 'pathe'
+import { resolve } from 'path'
+import { fileURLToPath } from 'url'
 import { defineNuxtModule, addPlugin } from '@nuxt/kit'
 import type { Nuxt } from '@nuxt/schema'
 import type { LazyLoadOptions } from './types'
 
 export default defineNuxtModule<LazyLoadOptions>({
-  name: '@nuxt-modules/lazy-load',
-  configKey: 'lazyLoad',
+  meta: {
+    name: '@nuxt-modules/lazy-load',
+    configKey: 'lazyLoad',
+    compatibility: {
+      nuxt: '^3.0.0'
+    }
+  },
+  defaults: {
+    selector: 'lazy',
+  },
   setup (options: LazyLoadOptions, nuxt: Nuxt) {
     nuxt.options.publicRuntimeConfig.lazyLoad = defu(nuxt.options.publicRuntimeConfig.lazyLoad, {
       selector: options.selector,
@@ -28,5 +37,12 @@ declare module '@nuxt/schema' {
     publicRuntimeConfig?: {
       lazyLoad?: LazyLoadOptions
     }
+  }
+  interface NuxtConfig {
+    lazyLoad?: LazyLoadOptions
+  }
+
+  interface NuxtOptions {
+    lazyLoad?: LazyLoadOptions
   }
 }
