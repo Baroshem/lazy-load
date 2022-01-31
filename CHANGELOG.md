@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/nuxt-modules/lazy-load/compare/v0.1.0...v0.2.0) (2022-01-31)
+
+
+### Features
+
+* 0.2.0-rc.1 ([66b105d](https://github.com/nuxt-modules/lazy-load/commit/66b105df37cf29739bfdb94081b22aee07afb10f))
+* lint ([1ed535b](https://github.com/nuxt-modules/lazy-load/commit/1ed535bfefc1e260fda27643af5b869e256dfeab))
+* refactor to nuxt 3 module structure ([3c43465](https://github.com/nuxt-modules/lazy-load/commit/3c43465ae7f72b66c8f1fb3629c69202e157516b))
+* update docs ([5f0b775](https://github.com/nuxt-modules/lazy-load/commit/5f0b775f6c801febfd75c8d4b46147e8d53b292c))
+* update link to docs ([3bcf671](https://github.com/nuxt-modules/lazy-load/commit/3bcf671f70b423c491c576c61e494ea7f2dd3203))
+
 ## 0.1.0 (2022-01-19)
 
 
