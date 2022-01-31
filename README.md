@@ -16,7 +16,7 @@
 ## Features
 
 - Nuxt 3 ready
-- Easy Lazy Loading Images
+- Easy Lazy Loading Images, Pictures, and other HTML elements
 - Advanced configuration using Lozad.js
 - Handy composable useLazyLoad
 - TypeScript support
