@@ -1,6 +1,5 @@
-import defu from 'defu'
 import { resolve } from 'path'
-import { fileURLToPath } from 'url'
+import defu from 'defu'
 import { defineNuxtModule, addPlugin } from '@nuxt/kit'
 import type { Nuxt } from '@nuxt/schema'
 import type { LazyLoadOptions } from './types'
@@ -14,7 +13,7 @@ export default defineNuxtModule<LazyLoadOptions>({
     }
   },
   defaults: {
-    selector: 'lazy',
+    selector: 'lazy'
   },
   setup (options: LazyLoadOptions, nuxt: Nuxt) {
     nuxt.options.publicRuntimeConfig.lazyLoad = defu(nuxt.options.publicRuntimeConfig.lazyLoad, {
